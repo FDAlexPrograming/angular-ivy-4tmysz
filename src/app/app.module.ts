@@ -4,9 +4,9 @@ import { HttpClientModule, HttpErrorResponse, HTTP_INTERCEPTORS } from '@angular
 import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './pagina/header/header.component';
-import { AboutForMyComponent } from './pagina/about-for-my/about-for-my.component';
-import { PorfolioComponent } from './porfolio/porfolio.component';
+//import { HeaderComponent } from './pagina/header/header.component';
+//import { AboutForMyComponent } from './pagina/about-for-my/about-for-my.component';
+//import { PorfolioComponent } from './porfolio/porfolio.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { RegisterComponent } from './register/register.component';
 import { InterceptorService } from './servicios/interceptor.service';
@@ -18,9 +18,9 @@ import { LoginComponent } from './login/login.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    AboutForMyComponent,
-    PorfolioComponent,
+   // HeaderComponent,
+   // AboutForMyComponent,
+    //PorfolioComponent,
     RegisterComponent,
     LoginComponent,
     
